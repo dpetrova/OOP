@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator", "InterestCalculator\InterestCalculator.csproj", "{1A394DB1-4D42-4974-903E-7AB8CC049CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousTimer", "AsynchronousTimer\AsynchronousTimer.csproj", "{F8DFA42F-A543-4AF1-BBCB-BFC80AD453CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClass", "StudentClass\StudentClass.csproj", "{1AC23473-9325-4529-AE8A-91EF9924FABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLINQ_ExtensionMethods", "CustomLINQ_ExtensionMethods\CustomLINQ_ExtensionMethods.csproj", "{5A5DE2EB-6C52-45D0-B086-AE4CFD954156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A394DB1-4D42-4974-903E-7AB8CC049CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A394DB1-4D42-4974-903E-7AB8CC049CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A394DB1-4D42-4974-903E-7AB8CC049CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A394DB1-4D42-4974-903E-7AB8CC049CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DFA42F-A543-4AF1-BBCB-BFC80AD453CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DFA42F-A543-4AF1-BBCB-BFC80AD453CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DFA42F-A543-4AF1-BBCB-BFC80AD453CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DFA42F-A543-4AF1-BBCB-BFC80AD453CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC23473-9325-4529-AE8A-91EF9924FABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC23473-9325-4529-AE8A-91EF9924FABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC23473-9325-4529-AE8A-91EF9924FABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC23473-9325-4529-AE8A-91EF9924FABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5DE2EB-6C52-45D0-B086-AE4CFD954156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5DE2EB-6C52-45D0-B086-AE4CFD954156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5DE2EB-6C52-45D0-B086-AE4CFD954156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5DE2EB-6C52-45D0-B086-AE4CFD954156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

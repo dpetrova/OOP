@@ -1,0 +1,7 @@
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.exe.config
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.exe
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.pdb
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\bin\Debug\DocX.dll
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.exe
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\6.OtherTypes-Homework\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.pdb

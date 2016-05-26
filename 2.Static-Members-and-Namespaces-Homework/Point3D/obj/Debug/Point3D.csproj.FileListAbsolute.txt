@@ -1,0 +1,12 @@
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\bin\Debug\Point3D.exe.config
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\bin\Debug\Point3D.exe
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\bin\Debug\Point3D.pdb
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\obj\Debug\Point3D.exe
+c:\users\daniela\documents\visual studio 2013\Projects\2.StaticMembersAndNamespaces-Homework\Point3D\obj\Debug\Point3D.pdb
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\bin\Debug\Point3D.exe.config
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\obj\Debug\Point3D.exe
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\obj\Debug\Point3D.pdb
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\bin\Debug\Point3D.exe
+C:\Users\Daniela\Documents\Visual Studio 2013\Projects\05.OOP_projects\2.Static-Members-and-Namespaces-Homework\Point3D\bin\Debug\Point3D.pdb

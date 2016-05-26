@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{588C90C3-2CF1-4279-992F-A5AA5A4C663A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISIS</RootNamespace>
+    <AssemblyName>ISIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\CommandManager.cs" />
+    <Compile Include="Engine\Commands\AkbarCommand.cs" />
+    <Compile Include="Engine\Commands\ApocalypseCommand.cs" />
+    <Compile Include="Engine\Commands\AttackCommand.cs" />
+    <Compile Include="Engine\Commands\Command.cs" />
+    <Compile Include="Engine\Commands\CreateCommand.cs" />
+    <Compile Include="Engine\Commands\StatusCommand.cs" />
+    <Compile Include="Engine\Factories\AttackFactory.cs" />
+    <Compile Include="Engine\Factories\EffectFactory.cs" />
+    <Compile Include="Engine\Factories\GroupFactory.cs" />
+    <Compile Include="Engine\GameEngine.cs" />
+    <Compile Include="Engine\Messages.cs" />
+    <Compile Include="Exceptions\MilitanGroupsException.cs" />
+    <Compile Include="Interfaces\IAttack.cs" />
+    <Compile Include="Interfaces\ICommandManager.cs" />
+    <Compile Include="Interfaces\IGameEngine.cs" />
+    <Compile Include="Interfaces\IInputReader.cs" />
+    <Compile Include="Interfaces\IMilitantGroup.cs" />
+    <Compile Include="Interfaces\IOutputWriter.cs" />
+    <Compile Include="Interfaces\ITriggered.cs" />
+    <Compile Include="Interfaces\IWarEffect.cs" />
+    <Compile Include="IO\ConsoleReader.cs" />
+    <Compile Include="IO\ConsoleWriter.cs" />
+    <Compile Include="Models\Attacks\Attack.cs" />
+    <Compile Include="Models\Attacks\AttackType.cs" />
+    <Compile Include="Models\Attacks\Paris.cs" />
+    <Compile Include="Models\Attacks\SU24.cs" />
+    <Compile Include="Models\MilitantGroups\MilitantGroup.cs" />
+    <Compile Include="Models\WarEffects\EffectType.cs" />
+    <Compile Include="Models\WarEffects\Jihad.cs" />
+    <Compile Include="Models\WarEffects\Kamikaze.cs" />
+    <Compile Include="Models\WarEffects\WarEffect.cs" />
+    <Compile Include="ISISMainProgram.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
